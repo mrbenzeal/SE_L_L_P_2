@@ -10,14 +10,14 @@
 
 int main(void)
 {
-	int i = 97;
+	int i = 97; /* the ASCII number for 'a' */
 
-	while (i < 123)
+	while (i <= 122) /* the ASCII number for 'z' */
 	{
 		putchar(i);
 		i++;
 	}
-	putchar(10);
+	putchar(10); /* the ASCII number for '\n' */
 
 	return (0);
 }
